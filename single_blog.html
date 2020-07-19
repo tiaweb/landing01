@@ -1,0 +1,743 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Single blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="assets\img\icon\fabicon.png">
+    <!--::::: theme css :::::::-->
+    <link rel="stylesheet" href="assets\css\plugins.css">
+    <!--::::: theme css :::::::-->
+    <link rel="stylesheet" href="assets\css\theme.css">
+    <!--::::: inner css :::::::-->
+    <link rel="stylesheet" href="assets\css\inner_pages.css">
+    <!--::::: menu css :::::::-->
+    <link rel="stylesheet" href="assets\css\menu.css">
+    <!--::::: custome css :::::::-->
+    <link rel="stylesheet" href="assets\css\custom_animation.css">
+    <!--::::: btn css :::::::-->
+    <link rel="stylesheet" href="assets\css\btn.css">
+    <!--::::: typographi css :::::::-->
+    <link rel="stylesheet" href="assets\css\typography.css">
+    <!--::::: responsive css :::::::-->
+    <link rel="stylesheet" href="assets\css\responsive.css">
+
+
+    <!--:::::jquery 3.2.1 js :::::::-->
+    <script src="assets\js\vendor\jquery.3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="load-wrapp">
+        <div class="load-6">
+            <div class="letter-holder">
+                <div class="l-1 letter">T</div>
+                <div class="l-2 letter">I</div>
+                <div class="l-3 letter">A</div>
+                <div class="l-4 letter">W</div>
+                <div class="l-5 letter">E</div>
+                <div class="l-6 letter">B</div>
+            </div>
+        </div>
+    </div>
+
+    <!--:::::header area start :::::::-->
+    <div class="header-area" id="myHeader">
+        <!--:::::click to top scroll button :::::::-->
+        <a href="#home" class="up_btn"><i class="fal fa-angle-up"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-2 d-none d-lg-block align-self-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets\img\icon\fabicon.png" alt="">&nbsp; Tiaweb</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 align-self-center">
+                    <div class="main-menu-area d-none d-lg-block">
+                        <div class="main-menu">
+                            <!-- main menu navbar start -->
+                            <nav class="desktop-menu">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#features">Features </a>
+                                    </li>
+                                    <li><a href="#">Pages +</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="single_blog.html">Single Blog</a></li>
+                                            <li><a href="contact.html">contact</a></li>
+                                            <li><a href="faq.html">faq</a></li>
+                                            <li><a href="404.html">404 Error</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#blog">Blog +</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="single_blog.html">Single Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#contact">Contact us +</a>
+                                    <ul class="dropdown">
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- main menu navbar end -->
+                        </div>
+                    </div>
+                    </div>
+                    <!-- main menu area end -->
+                    <!-- main header start -->
+                    <div class="col-lg-4 text-right align-self-center d-none d-lg-block wow fadeInDown" data-wow-delay="1s" data-wow-duration="1.4s">
+                        <div class="btn_group">
+                            <a class="xs-btn active xs-first mr-3" href="#">Sign In <span></span></a>
+                            <a class="xs-btn xs-first" href="#">Get Started <span></span></a>
+                        </div>
+                    </div>
+            </div>
+            <!--:::::mobile menu area start :::::::-->
+
+            <!-- mobile header start -->
+                    <div class="mobile-header d-lg-none d-md-block sticky">
+                        <!--mobile header top start -->
+                        <div class="row align-items-center mobile-main-header">
+                                    <div class="col-6">
+                                        <div class="logo">
+                                        <a href="index.html"><img src="assets\img\icon\fabicon.png" alt="">&nbsp; Tiaweb</a>
+                                    </div>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <div class="mobile-menu-toggler">
+                                        <div class="mobile-menu-btn">
+                                            <div class="off-canvas-btn">
+                                                <i class="fal fa-bars"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- mobile header top start -->
+                    </div>
+                    <!-- mobile header end -->
+
+                    <!-- off-canvas menu start -->
+                    <aside class="off-canvas-wrapper">
+                        <div class="off-canvas-overlay"></div>
+                        <div class="off-canvas-inner-content">
+                            <div class="btn-close-off-canvas">
+                                <i class="fal fa-times"></i>
+                            </div>
+
+                            <div class="off-canvas-inner">
+                                <!-- search box start -->
+                                <div class="search-box-offcanvas">
+                                    <form>
+                                        <input type="text" placeholder="Search Here...">
+                                        <button class="search-btn"><i class="far fa-search"></i></button>
+                                    </form>
+                                </div>
+                                <!-- search box end -->
+
+                                <!-- mobile menu start -->
+                                <div class="mobile-navigation">
+                                    <!-- mobile menu navigation start -->
+                                    <nav>
+                                        <ul class="mobile-menu">
+                                            <li class="menu-item-has-children"><a href="index.html">Home</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="index.html">Home version 01</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="#">pages</a>
+                                                <ul class="megamenu dropdown">
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 01</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="shop.html">shop grid left
+                                                                    sidebar</a></li>
+                                                            <li><a href="shop-grid-right-sidebar.html">shop grid right
+                                                                    sidebar</a></li>
+                                                            <li><a href="shop-list-left-sidebar.html">shop list left sidebar</a></li>
+                                                            <li><a href="shop-list-right-sidebar.html">shop list right sidebar</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 02</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="product-details.html">product details</a></li>
+                                                            <li><a href="product-details-affiliate.html">product
+                                                                    details
+                                                                    affiliate</a></li>
+                                                            <li><a href="product-details-variable.html">product details
+                                                                    variable</a></li>
+                                                            <li><a href="product-details-group.html">product details
+                                                                    group</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 03</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="cart.html">cart</a></li>
+                                                            <li><a href="checkout.html">checkout</a></li>
+                                                            <li><a href="compare.html">compare</a></li>
+                                                            <li><a href="wishlist.html">wishlist</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 04</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="my-account.html">my-account</a></li>
+                                                            <li><a href="login-register.html">login-register</a></li>
+                                                            <li><a href="contact-us.html">contact us</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children "><a href="#">shop</a>
+                                                <ul class="dropdown">
+                                                    <li class="menu-item-has-children"><a href="#">shop grid layout</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="shop.html">shop grid left sidebar</a></li>
+                                                            <li><a href="shop-grid-right-sidebar.html">shop grid right sidebar</a></li>
+                                                            <li><a href="shop-grid-full-3-col.html">shop grid full 3 col</a></li>
+                                                            <li><a href="shop-grid-full-4-col.html">shop grid full 4 col</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item-has-children"><a href="#">shop list layout</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="shop-list-left-sidebar.html">shop list left sidebar</a></li>
+                                                            <li><a href="shop-list-right-sidebar.html">shop list right sidebar</a></li>
+                                                            <li><a href="shop-list-full-width.html">shop list full width</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item-has-children"><a href="#">products details</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="product-details.html">product details</a></li>
+                                                            <li><a href="product-details-affiliate.html">product details affiliate</a></li>
+                                                            <li><a href="product-details-variable.html">product details variable</a></li>
+                                                            <li><a href="product-details-group.html">product details group</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children "><a href="#">Blog</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="blog-left-sidebar.html">blog left sidebar</a></li>
+                                                    <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
+                                                    <li><a href="blog-grid-full-width.html">blog grid no sidebar</a></li>
+                                                    <li><a href="blog-details.html">blog details</a></li>
+                                                    <li><a href="blog-details-audio.html">blog details audio</a></li>
+                                                    <li><a href="blog-details-video.html">blog details video</a></li>
+                                                    <li><a href="blog-details-left-sidebar.html">blog details left sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#contact">Contact us</a></li>
+                                        </ul>
+                                    </nav>
+                                    <!-- mobile menu navigation end -->
+                                </div>
+                                <!-- mobile menu end -->
+
+                                <!-- offcanvas widget area start -->
+                                <div class="space-100"></div>
+                                <div class="footer-logo">
+                                    <a class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s" href="#"><img src="assets\img\logo\flogo.png" alt=""></a>
+                                    <p class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1.5s">Whether its a driving tour, a cruise or a bus,
+                                        leaf viewing is a great way to spend a fall
+                                        vacation. It’s also big tour business.</p>
+                                    <div class="footer_social animate" data-animate="fadeInUp" data-delay="2s" data-duration="2s">
+                                        <ul class="d-inline">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- offcanvas widget area end -->
+                            </div>
+                        </div>
+                    </aside>
+                
+    <!--:::::mobile menu area end :::::::-->
+        </div>
+    </div>
+    <!--:::::header area end :::::::-->
+
+
+
+    <!---====welcome area start====-->
+    <div class="welcome-area inner bg dots_bg theme-bg " id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="welcome-text white align-self-center wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
+                        <h1>News Feed</h1>
+                        <a href="#">Home</a> - <a href="#">Blog</a> - Blog Details
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---====welcome area end====-->
+
+
+    <!---====blog area start====-->
+    <div class="blog-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="single_blog">
+                        <div class="space-30"></div>
+                        <div class="blog_authore_description">
+                            <ul>
+                                <li><a href="#"><img class="mr-2" src="assets\img\blogs\author.png" alt="">Rosalina D. Williamson</a></li>
+                                <li><a href="#"><i class="far fa-comments"></i> 1K Comments</a></li>
+                                <li><a href="#"><i class="fas fa-pencil-alt"></i> Business, Consulting, Creative</a></li>
+                            </ul>
+                        </div>
+                        <div class="space-30"></div>
+
+                        <h2>I’m watching concerns monsters  no
+                            doubt a documentary.</h2>
+                        <div class="space-30"></div>
+
+                        <p>At first the footage jolts and quakes, because the invader has arrived on horseback, and upon spotting and smelling the bipedal beast, the horse reared up, chucking its rider. But then the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down. At first the footage jolts and quakes, because the invader has arrived on horseback, and upon spotting and smelling the bipedal beast, the horse reared up, chucking its rider. But then the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down.</p>
+
+                        <div class="space-40"></div>
+                        <div class="single_blog single_blog_carousel">
+                            <div class="blog_slide owl-carousel">
+                                <div class="">
+                                    <div class="blog_carosuel_text">
+                                        <h2>American Master Haloween</h2>
+                                        <div class="space-10"></div>
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis eos facere magni labore delectus saepe quaerat atque sequi ullam.</h5>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="blog_carosuel_text">
+                                        <h2>Best Websites</h2>
+                                        <div class="space-10"></div>
+                                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At debitis eos facere magni labore delectus saepe quaerat atque sequi ullam.</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="space-50"></div>
+                        <p>At first the footage jolts and quakes, because the invader has arrived on horseback, and upon spotting and smelling the bipedal beast, the horse reared up, chucking its rider. But then the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down. At first the footage jolts and quakes, because the invader has arrived on horseback, and upon spotting and smelling the bipedal beast, the horse reared up, chucking its rider. But then the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down.</p>
+
+                        <div class="space-30"></div>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="single_blog_mid_img">
+                                    <img src="assets\img\blogs\blog_1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down. At first the footage jolts and quakes, because the invader has arrived on horseback, and upon spotting and smelling the bipedal beast, the horse reared up, chucking its rider. But then the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down the rider finds his feet and poise, and for a few seconds the film settles down.the rider finds his feet and poise, and for a few seconds the film settles down.
+                            </div>
+                        </div>
+                        <div class="space-30"></div>
+                        <div class="related_tags">
+                            <div class="row">
+                                <div class="col-6 align-self-center">
+                                    <h5>Related Tags</h5>
+                                    <div class="space-10"></div>
+                                    <p>Bussiness, Creative, Agency</p>
+                                </div>
+                                <div class="col-6 align-self-center text-right">
+                                    <div class="single_blog_socials">
+                                        <h5>Social Share</h5>
+                                        <div class="space-10"></div>
+                                        <div class="author_social">
+                                            <ul>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-30"></div>
+
+                        <div class="blog_border"></div>
+                        <div class="space-30"></div>
+                        <div class="post_prev_next">
+                            <div class="row">
+                                <div class="col-4 align-self-center align-self-center">
+                                    <a href="#">Prev Post</a>
+                                    <div class="space-10"></div>
+                                    <h5>Tips On Minimalist</h5>
+                                </div>
+                                <div class="col-4 align-self-center text-center align-self-center">
+                                    <div class="pre_next_grid">
+                                        <a href="blog.html"><i class="fas fa-th"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-4 align-self-center text-right align-self-center">
+                                    <div class="next_text">
+                                        <a href="#">Next Post</a>
+                                        <div class="space-10"></div>
+                                        <h5>Less Is More</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="space-30"></div>
+
+                        <div class="related_post">
+                            <h5>Related Post</h5>
+                            <div class="space-30"></div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="srelated srelated1 black_overly">
+                                        <div class="sricon">
+                                            <p><i class="fal fa-calendar-plus mr-2"></i> 27 JUN 2019</p>
+                                        </div>
+                                        <div class="sr_text">
+                                            <h5>A series of ios 7 inspire <br>vector icon seens</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="srelated srelated1 black_overly">
+                                        <div class="sricon">
+                                            <p><i class="fal fa-calendar-plus mr-2"></i> 27 JUN 2019</p>
+                                        </div>
+                                        <div class="sr_text">
+                                            <h5>A series of ios 7 inspire <br>vector icon seens</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-30"></div>
+
+                        <div class="blog_border"></div>
+                        <div class="space-30"></div>
+                        <div class="comment-area">
+                            <h4>Comments(220)</h4>
+
+                            <div class="single_comment">
+                                <div class="comment_img">
+                                    <img src="assets\img\blogs\Comment_1.jpg" alt="">
+                                </div>
+                                <div class="comment_text my-5">
+                                    <h4>Jenifer Lofez <span>35 Days ago</span></h4>
+                                    <p>It doesn’t matter if you want to use a solid color, image pattern oren one your favorite
+                                        across the entire background of your site, X lets you upload or choose an image color
+                                        instantly</p>
+                                </div>
+                            </div>
+                            <div class="single_comment ml-5">
+                                <div class="comment_img">
+                                    <img src="assets\img\blogs\Comment_1.jpg" alt="">
+                                </div>
+                                <div class="comment_text">
+                                    <h4>Jenifer Lofez <span>35 Days ago</span></h4>
+                                    <p>It doesn’t matter if you want to use a solid color, image pattern oren one your favorite
+                                        across the entire background of your site, X lets you upload or choose an image color
+                                        instantly</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-30"></div>
+                        <div class="comment_form">
+                            <h4>Leave a comment</h4>
+                            <form action="#">
+
+                                <input type="text" placeholder="Name Here">
+                                <input type="email" placeholder="Email Here">
+                                <textarea class="my-4" name="message" rows="8" id="message" placeholder="Message Here"></textarea>
+
+                                <a class="xs-btn xs-first" href="#">Submit <span></span></a>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="serch_form blog_side text-center">
+                        <h5>Serch Objects</h5>
+                        <div class="space-30"></div>
+                        <div class="form_email">
+                        <input type="text" placeholder="Enter Email">
+                        <a href="#" class="email_submit style1_btn_bg style1_hover_btn_bg"><i class="far fa-search"></i></a>
+                    </div>
+                    </div>
+                    <div class="space-30"></div>
+                    <div class="feeds blog_side">
+                        <h5>Popular Feeds</h5>
+                        <div class="space-30"></div>
+                        <div class="single_feed text-left">
+                            <div class="row">
+                                <div class="col-4 align-self-center">
+                                    <img src="assets\img\blogs\tag_1.png" alt="">
+                                </div>
+                                <div class="col-8 align-self-center">
+                                    <a href="">Lorem ipsum dolor sit amet.</a>
+                                    <p><i class="fal fa-calendar-alt mr-2"></i>24th Jun 2019</p>
+                                </div>
+                            </div>
+                            <div class="space-30"></div>
+                            <div class="row">
+                                <div class="col-4 align-self-center">
+                                    <img src="assets\img\blogs\tag_1.png" alt="">
+                                </div>
+                                <div class="col-8 align-self-center">
+                                    <a href="">Lorem ipsum dolor sit amet.</a>
+                                    <p><i class="fal fa-calendar-alt mr-2"></i>24th Jun 2019</p>
+                                </div>
+                            </div>
+                            <div class="space-30"></div>
+                            <div class="row">
+                                <div class="col-4 align-self-center">
+                                    <img src="assets\img\blogs\tag_1.png" alt="">
+                                </div>
+                                <div class="col-8 align-self-center">
+                                    <a href="">Lorem ipsum dolor sit amet.</a>
+                                    <p><i class="fal fa-calendar-alt mr-2"></i>24th Jun 2019</p>
+                                </div>
+                            </div>
+                            <div class="space-30"></div>
+                            <div class="row">
+                                <div class="col-4 align-self-center">
+                                    <img src="assets\img\blogs\tag_1.png" alt="">
+                                </div>
+                                <div class="col-8 align-self-center">
+                                    <a href="">Lorem ipsum dolor sit amet.</a>
+                                    <p><i class="fal fa-calendar-alt mr-2"></i>24th Jun 2019</p>
+                                </div>
+                            </div>
+                            <div class="space-30"></div>
+                            <div class="row">
+                                <div class="col-4 align-self-center">
+                                    <img src="assets\img\blogs\tag_1.png" alt="">
+                                </div>
+                                <div class="col-8 align-self-center">
+                                    <a href="">Lorem ipsum dolor sit amet.</a>
+                                    <p><i class="fal fa-calendar-alt mr-2"></i>24th Jun 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-30"></div>
+                    <div class="categories blog_side">
+                        <h5>Categories</h5>
+                        <div class="space-30"></div>
+                        <table class="table table-borderless text-left">
+                            <tbody>
+                                <tr>
+                                    <td class="td1">Bussiness</td>
+                                    <td class="td2 text-center">26</td>
+                                </tr>
+                                <tr class="space-10"></tr>
+                                <tr>
+                                    <td class="td1">Creative</td>
+                                    <td class="td2 text-center">70</td>
+                                </tr>
+                                <tr class="space-10"></tr>
+                                <tr>
+                                    <td class="td1">Software</td>
+                                    <td class="td2 text-center">65</td>
+                                </tr>
+                                <tr class="space-10"></tr>
+                                <tr>
+                                    <td class="td1">UI/UX</td>
+                                    <td class="td2 text-center">80</td>
+                                </tr>
+                                <tr class="space-10"></tr>
+                                <tr>
+                                    <td class="td1">Technology</td>
+                                    <td class="td2 text-center">60</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="space-30"></div>
+                    <div class="blog_social blog_side">
+                        <h5>Never Miss News</h5>
+                        <div class="space-30"></div>
+                        <div class="blog_social">
+                            <div class="footer_social">
+                                <ul class="d-inline">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-30"></div>
+                    <div class="instagram blog_side">
+                        <h5>Instagram Feed</h5>
+                        <div class="space-30"></div>
+                        <div class="row">
+                            <div class="col-4 mb-4">
+                                <div class="single_insta">
+                                    <a href=""><img src="assets\img\blogs\tag_1.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-4">
+                                <div class="single_insta">
+                                    <a href=""><img src="assets\img\blogs\tag_1.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-4">
+                                <div class="single_insta">
+                                    <a href=""><img src="assets\img\blogs\tag_1.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="single_insta">
+                                   <a href=""><img src="assets\img\blogs\tag_1.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="single_insta">
+                                    <a href=""><img src="assets\img\blogs\tag_1.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="single_insta">
+                                    <a href=""><img src="assets\img\blogs\tag_1.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-30"></div>
+                    <div class="tags blog_side">
+                        <h5>Popular Tags</h5>
+                        <div class="space-30"></div>
+                        <ul>
+                            <li><a href="#">Popular</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">UX</a></li>
+                            <li><a href="#">Web</a></li>
+                            <li><a href="#">Apps</a></li>
+                            <li><a href="#">Apps</a></li>
+                            <li><a href="#">Apps</a></li>
+                            <li><a href="#">Apps</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---====blog area end====-->
+
+
+    
+
+    <!--::::: footer area start :::::::-->
+    <div class="footer_area inner padding-top white bg dots_bg theme-bg">
+        <div class="container">
+            <div class="footer_wrap padding-t">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-logo">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets\img\icon\fabicon.png" alt="">&nbsp; Tiaweb</a>
+                            </div>
+                            <p class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1.5s">Whether its a driving tour, a cruise or a bus,
+                                leaf viewing is a great way to spend a fall
+                                vacation. It’s also big tour business.</p>
+                            <div class="footer_social animate" data-animate="fadeInUp" data-delay="2s" data-duration="2s">
+                                <ul class="d-inline">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="single_footer">
+                            <h4 class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s">About Us</h4>
+                            <ul class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1s">
+                                <li><a href="#">Partner Help</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Press Center</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="single_footer">
+                            <h4 class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1.5s">Products</h4>
+                            <ul class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s">
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Apps</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="single_footer">
+                            <h4 class="animate" data-animate="fadeInUp" data-delay="2s" data-duration="1.5s">Resouce</h4>
+                            <ul class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s">
+                                <li><a href="#">Customers</a></li>
+                                <li><a href="#">Whitepaper</a></li>
+                                <li><a href="#">Dev API</a></li>
+                                <li><a href="#">Media Coverages</a></li>
+                                <li><a href="#">GDPR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--::::: row end :::::::-->
+        </div>
+        <!--::::: container end :::::::-->
+        <div class="space-50"></div>
+    <div class="copyRight text-center">
+        <p class="animate" data-animate="fadeInUp" data-delay="2.5s" data-duration="2s">Copyright &copy; 2020 Tiaweb. All rights reserved.</p>
+    </div>
+    </div>
+    
+    <!--::::: footer area end :::::::-->
+
+    <!--:::::jquery.waypoints.min.js :::::::-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!--:::::popper js :::::::-->
+    <script src="assets\js\vendor\popper.min.js"></script>
+    <!--:::::bootstrap js :::::::-->
+    <script src="assets\js\vendor\bootstrap.min.js"></script>
+    <!--:::::owl carousel js :::::::-->
+    <script src="assets\js\vendor\owl.carousel.min.js"></script>
+    <!--:::::modal video btn js :::::::-->
+    <script src="assets\js\plugins\jquery-modal-video.min.js"></script>
+    <!--:::::slick nav mobile menu js :::::::-->
+    <script src="assets\js\plugins\wow.min.js"></script>
+    <!--:::::slick nav mobile menu js :::::::-->
+    <script src="assets\js\plugins\tilt.jquery.min.js"></script>
+
+    <script src="assets\js\plugins\jqueryUI.js"></script>
+    <!--:::::google map js :::::::-->
+    <script src="assets\js\plugins\gmap3.js"></script>
+    <!--:::::main js :::::::-->
+    <script src="assets\js\main.js"></script>
+</body>
+
+</html>

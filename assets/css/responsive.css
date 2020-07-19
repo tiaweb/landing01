@@ -1,0 +1,309 @@
+/*
+Theme Name: PLAZMA 
+Theme url:
+Author:Uivision
+Author url:
+Version:1.0.0
+Tag:bussiness
+Description:this is responsive css file for mobile and tablet layout
+
+================+/+/+/+/+/+/+/+/+/=================
+                    heigh
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (min-width: 1400px) {
+.welcome-area {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+}
+.fixd {
+    width: 1140px;
+    margin: 0 auto;
+}
+.welcome-text{
+    margin-left: 0;
+    width: 50%
+}
+
+.meeting-heading{
+    margin-left: 0;
+}
+.welcome_right
+{
+    right: -28%;
+    position: absolute;
+    top: auto;
+    bottom: auto;
+}
+.meeting_right_img img {
+    margin-left: 25%;
+}
+}
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    heigh
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 1400px) {
+.event_left_img img {
+    margin-left: -30%;
+}
+
+}
+
+
+
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    medium
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .welcome-text {
+        width: 60%;
+        margin-left: 5%;
+    }
+    .event_right {
+        width: 56%;
+    }
+    .meeting-heading {
+        width: 40%;
+        margin-left: 4%;
+    }
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                     tab
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 991px) {
+   .welcome-text {
+    margin-left: 0;
+}
+
+.welcome_right {
+    position: relative;
+    right: auto;
+    z-index: 2;
+}
+.meeting-heading {
+    margin-left: 0px;
+    margin-bottom: 50px !important;
+}
+.meeting-heading h2 {
+    margin-bottom: 30px;
+}
+.meeting_right {
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+}
+.meeting-heading {
+    margin-left: 0;
+}
+.meeting-wrap, 
+.event-wrap, 
+.welcome_wap{
+    display: block;
+}
+.event-wrap {
+    align-items: center;
+}
+.event_right {
+    display: none
+}
+.event-heading, 
+.meeting-heading, 
+.meeting-heading, 
+.meeting_right, 
+.welcome-text, .welcome_right{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.welcome-area {
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    align-items: center;
+    transition: all .3s;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+ul.optimize-list {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.single-pricing {
+    background: #fff;
+    padding: 60px 15px;
+}
+.cta-area .form_email{
+    margin-top: 30px;
+}
+}
+
+/*tablet layout:768px*/
+@media only screen and(min-width:768px) and (max-width:991px) {
+
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    Mobile
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .single-pricing {
+    background: #fff;
+    padding: 80px 50px;
+}
+    .head_socials ul {
+        margin: 15px 0;
+        text-align: left;
+    }
+    .single_service{
+        margin-bottom: 30px;
+    }
+
+    .welcome-right_img1,
+    .counter_left {
+        display: none;
+    }
+
+    .welcome_wrap,
+    .heading {
+        text-align: center;
+    }
+
+    .single_about,
+    .team_img,
+    .cta_heading, 
+    .single_product_show, 
+    .single_shop_view  {
+        margin-bottom: 30px;
+    }
+
+    .single_blog {
+        margin-top: 40px;
+    }
+
+    .single_customer {
+        padding: 20px 20px 20px 60px;
+        margin: 20px 20px 20px 53px;
+        position: relative;
+    }
+
+    .v3sinngle_service.service_left {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .cta_img1{
+        display: none;
+    }
+    .form_email {
+    text-align: center;
+    margin: 20px 0;
+}
+.form_email input {
+    padding: 15px;
+    border: none;
+    background: #fff;
+    width: 80% !important;
+    float: none;
+    margin: 0 auto;
+}
+a.email_submit {
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.welcome_right {
+    margin-top: 20px;
+}
+.single_features{
+    margin-bottom: 30px;
+}
+.single_features.last_c{
+    margin-bottom: 0;
+}
+ul.optimize-list li {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.single-pricing{
+    margin-bottom: 40px
+}
+.single-pricing.active{
+    margin-top: 0;
+}
+.single_client{
+    margin: 0;
+}
+.cta-area, .footer_area {
+    text-align: center;
+}
+.footer-logo{
+    width: 100%;
+}
+.single_footer h4{
+    margin-top: 40px;
+}
+
+ul.optimize-list{
+    width: 100%;
+    text-align: center;
+}
+.blog_side {
+    padding: 30px 20px;
+}
+.single_blog_carousel{
+    padding: 20px;
+}
+.single_blog_mid_img{
+    margin: 20px 0
+}
+.author_social li a{
+    margin-right: 0
+}
+.serch_form {
+    margin-top: 30px;
+}
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    wid device
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 480px;
+    }
+
+
+}
+
+/*=========================================================================
+                                The end
+==========================================================================*/

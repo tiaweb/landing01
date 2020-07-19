@@ -1,0 +1,526 @@
+/*
+
+Name: Appsre - App Landing Page Template
+Version:1.0;
+
+
+*/
+
+
+
+/*
+
+CSS LIST =====>
+
+
+===========================
+WELCOME AREA CSS
+===========================
+LOGO AREA CSS
+===========================
+FEAUTURE AREA CSS
+===========================
+FEAUTURES MEETING AREA CSS
+===========================
+PRICNIG AREA CSS
+===========================
+COMPANY AREA CSS
+===========================
+CLIENT AREA CSS
+===========================
+FOOTER AREA CSS
+===========================
+HOME PAGE 2 AREA CSS
+===========================
+
+
+
+
+/*----===========WELCOME AREA CSS----============*/
+
+.welcome-text h1{
+    margin-bottom: 50px;
+}
+
+.welcome-area {
+    align-items: center;
+    position: relative !important;
+    z-index: 2;
+    display: flex;
+    overflow: hidden;
+    height: 700px;
+    align-items: center;
+    transition: all .3s;
+
+}
+.welcome-text {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.welcome_wap {
+    display: flex;
+}
+
+.welcome_right {
+    width: 60%;
+    position: relative;
+    right: -13%;
+    position: relative;
+    z-index: 2;
+}
+img.wlm-car1 {
+    position: absolute;
+    top: 4%;
+    left: -16%;
+    z-index: -1;
+}
+
+img.wlm-car2 {
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    width: 43%;
+}
+
+.form_email input {
+    padding: 15px;
+    border: none;
+    background: #fff;
+    width: 70% !important;
+    float: left;
+}
+
+.form_email {
+    display: block;
+    clear: both;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+a.email_submit {
+    clear: both;
+    padding: 15px;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+/*----===========LOGO AREA CSS----============*/
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+
+.single_logo{
+    text-align: center;
+}
+
+
+/*----===========FEAUTURE AREA CSS----============*/
+.features-meeting-area{
+    overflow: hidden;
+}
+
+.features_hicon{
+    background: #27c6fd !important;
+    box-shadow: 0 0 10px #27c6fd;
+}
+
+
+.single_features {
+    padding: 30px 20px;
+    transition: all .3s;
+}
+
+.features_icon {
+    width: 70px;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.features_text h3 {
+    margin-bottom: 15px;
+}
+
+.features_icon:before {
+    position: absolute;
+    content: "";
+    height: 70px;
+    width: 20px;
+    background: #d9eeff;
+    border-radius: 25px;
+    transform: rotate(45deg);
+    right: 40%;
+    bottom: -22%;
+    z-index: -1;
+    transition: all .3s;
+}
+
+.single_features:hover .features_icon:before {
+    height: 120%;
+    width: 120%;
+    background: #d9eeff;
+    transform: rotate(0);
+    right: -8%;
+    bottom: -5%;
+    z-index: -1;
+    border-radius: 3px;
+    transition: all .3s;
+}
+.single_features:hover{
+    box-shadow: 0 5px 20px #ebebeb;
+    transform: translateY(-5px);
+    transition: all .3s;
+}
+/*----===========FEAUTURES MEETING AREA CSS----============*/
+
+.features_meeting_hicon{
+    background: #ff6eb0 !important;
+    box-shadow: 0 0 10px #ff6eb0;
+}
+ul.optimize-list li i {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #2d8eff;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+ul.optimize-list li{
+    margin-bottom:10px;
+}
+ul.optimize-list li:last-child{
+    margin-bottom: 0px;
+}
+.meeting-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.meeting-heading {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.meeting_right {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.meeting_right_img img {
+    margin-left: 18%;
+}
+
+img.meeting_right_base {
+    position: absolute;
+    top: 3%;
+    left: -21%;
+    z-index: 3;
+}
+
+img.meeting_right_event {
+    position: absolute;
+    bottom: 0;
+    left: -15%;
+    z-index: 3;
+}
+.event-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.event_left_img img {margin-left: -35%;}
+
+.event_right {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.event-heading {
+    width: 40%;
+}
+
+
+
+.features_event_hicon{
+    background: #02BC68 !important;
+    box-shadow: 0 0 10px #02BC68;
+}
+
+.features_optimize_hicon{
+    background: #FF8A6F !important;
+    box-shadow: 0 0 10px #FF8A6F;
+}
+
+
+/*----===========PRICNIG AREA CSS----============*/
+
+.pricing-icon i {
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.single-pricing li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.single-pricing li:last-child {
+    margin-bottom: 0;
+}
+
+.single-pricing ul {
+    margin-top: 31px;
+    text-align: left;
+}
+
+.single-pricing {
+    background: #fff;
+    padding: 40px 50px;
+}
+.single-pricing h3{
+    margin-bottom: 0;
+}
+.single-pricing ul li i {
+    font-size: 10px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    background: #2d8eff;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50px;
+}
+.pricing-icon {
+    color: #2d8eff;
+}
+.single-pricing.active {
+    margin-top: -50px;
+}
+
+
+
+
+.tab-slider--nav{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tab-slider--tabs{
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+  background: #fff;
+  height: 50px;
+  user-select: none; 
+
+}
+.tab-slider--tabs.slide:after{
+  left: 50%;
+}
+.tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    background: #2d8eff;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 250ms ease-in-out;
+    border-radius: 35px;
+}
+.tab-slider--trigger {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  color:  #345F90;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 45px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block;
+  transition: color 250ms ease-in-out;
+  user-select: none; 
+}
+.tab-slider--body{
+  margin-bottom: 20px;
+}
+.tab-slider--trigger.active{
+    color: #fff;
+  }
+
+
+  .pricing_hicon{
+    background: #fff !important;
+  }
+/*----===========COMPANY AREA CSS----============*/
+.single_company {
+    display: inline-block;
+    background: #fff;
+    padding: 30px;
+    margin: 20px 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #e2e2e2;
+}
+
+/*----===========CLIENT AREA CSS----============*/
+
+
+.client-area{
+    overflow: hidden;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.author h5 {
+    margin-bottom: 0;
+}
+
+.author_text h4 {
+    margin-bottom: 0;
+}
+
+.author_img {
+    margin-right: 15px;
+}
+.single_client h6 {
+    line-height: 28px;
+    font-weight: 400;
+}
+.single_client {
+    padding: 30px;
+    box-shadow: 0 0 20px #e8e8e8;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.single_client:after {
+    position: absolute;
+    content: "";
+    background: url(../img/icon/q.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    right: -60%;
+    bottom: -63%;
+}
+.client-area .owl-carousel .owl-stage-outer{
+    overflow: visible;
+}
+.owl-item.active {
+    opacity: 1;
+}
+.owl-item {
+    opacity: .3;
+}
+.client_hicon{
+    background: #ef4f79 !important;
+    box-shadow: 0 0 10px #ef4f79;
+}
+/*----===========FOOTER AREA CSS----============*/
+.footer-logo p {
+    margin: 30px 0 !important;
+}
+.footer_social li a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.footer_social li a:hover {
+    color: #fff;
+    background: #2e8eff;
+    border-color: #2e8eff;
+}
+
+
+.footer-logo{
+    width: 70%;
+}
+.single_footer h4 {
+    margin-bottom: 30px;
+}
+
+.single_footer li {
+    margin-bottom: 8px;
+}
+
+.single_footer li:last-child {
+    margin-bottom: 0;
+}
+.copyRight{
+    padding-bottom: 20px;
+}
+.single_footer ul li a:hover{
+    padding-left: 3px;
+}
+
+
+/*----===========HOME PAGE 2 AREA CSS----============*/
+
+.home2.welcome-area {
+    align-items: center;
+    position: relative !important;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    align-items: center;
+    transition: all .3s;
+    padding-top: 150px;
+}
+
+.home2_shape {
+    height: 50px;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+.home2_shape:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to left top, #ffffff 50%, transparent 50%) repeat scroll 0 0;
+}
+
+.home2_shape_top {
+    height: 50px;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+.home2_shape_top:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #ffffff 50%, transparent 50%) repeat scroll 0 0;
+}

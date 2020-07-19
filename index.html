@@ -1,0 +1,858 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tiaweb</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="assets\img\icon\fabicon.png">
+    <!--::::: theme css :::::::-->
+    <link rel="stylesheet" href="assets\css\plugins.css">
+    <!--::::: theme css :::::::-->
+    <link rel="stylesheet" href="assets\css\theme.css">
+    <!--::::: inner css :::::::-->
+    <link rel="stylesheet" href="assets\css\inner_pages.css">
+    <!--::::: menu css :::::::-->
+    <link rel="stylesheet" href="assets\css\menu.css">
+    <!--::::: custome css :::::::-->
+    <link rel="stylesheet" href="assets\css\custom_animation.css">
+    <!--::::: btn css :::::::-->
+    <link rel="stylesheet" href="assets\css\btn.css">
+    <!--::::: typographi css :::::::-->
+    <link rel="stylesheet" href="assets\css\typography.css">
+    <!--::::: responsive css :::::::-->
+    <link rel="stylesheet" href="assets\css\responsive.css">
+
+
+    <!--:::::jquery 3.2.1 js :::::::-->
+    <script src="assets\js\vendor\jquery.3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="load-wrapp">
+        <div class="load-6">
+            <div class="letter-holder">
+                <div class="l-1 letter">T</div>
+                <div class="l-2 letter">I</div>
+                <div class="l-3 letter">A</div>
+                <div class="l-4 letter">W</div>
+                <div class="l-5 letter">E</div>
+                <div class="l-6 letter">B</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--:::::header area start :::::::-->
+    <div class="header-area" id="myHeader">
+        <!--:::::click to top scroll button :::::::-->
+        <a href="#home" class="up_btn"><i class="fal fa-angle-up"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-2 d-none d-lg-block align-self-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets\img\icon\fabicon.png" alt="">&nbsp; Tiaweb</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 align-self-center">
+                    <div class="main-menu-area d-none d-lg-block">
+                        <div class="main-menu">
+                            <!-- main menu navbar start -->
+                            <nav class="desktop-menu">
+                                <ul class="navbar">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#features">Features </a>
+                                    </li>
+                                    <li><a href="#">Pages +</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="single_blog.html">Single Blog</a></li>
+                                            <li><a href="contact.html">contact</a></li>
+                                            <li><a href="faq.html">faq</a></li>
+                                            <li><a href="404.html">404 Error</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#blog">Blog +</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="single_blog.html">Single Blog</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#contact">Contact us +</a>
+                                    <ul class="dropdown">
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- main menu navbar end -->
+                        </div>
+                    </div>
+                    </div>
+                    <!-- main menu area end -->
+                    <!-- main header start -->
+                    <div class="col-lg-4 text-right align-self-center d-none d-lg-block wow fadeInDown" data-wow-delay="1s" data-wow-duration="1.4s">
+                        <div class="btn_group">
+                            <a class="xs-btn active xs-first mr-3" href="#">Sign In <span></span></a>
+                            <a class="xs-btn xs-first" href="#">Get Started <span></span></a>
+                        </div>
+                    </div>
+            </div>
+             <!--:::::mobile menu area start :::::::-->
+            <!-- mobile header start -->
+                    <div class="mobile-header d-lg-none d-md-block sticky">
+                        <!--mobile header top start -->
+                        <div class="row align-items-center mobile-main-header">
+                                    <div class="col-6">
+                                        <div class="logo">
+                                        <a href="index.html"><img src="assets\img\icon\fabicon.png" alt="">&nbsp; Tiaweb</a>
+                                    </div>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <div class="mobile-menu-toggler">
+                                        <div class="mobile-menu-btn">
+                                            <div class="off-canvas-btn">
+                                                <i class="fal fa-bars"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- mobile header top start -->
+                    </div>
+                    <!-- mobile header end -->
+
+                    <!-- off-canvas menu start -->
+                    <aside class="off-canvas-wrapper">
+                        <div class="off-canvas-overlay"></div>
+                        <div class="off-canvas-inner-content">
+                            <div class="btn-close-off-canvas">
+                                <i class="fal fa-times"></i>
+                            </div>
+
+                            <div class="off-canvas-inner">
+                                <!-- search box start -->
+                                <div class="search-box-offcanvas">
+                                    <form>
+                                        <input type="text" placeholder="Search Here...">
+                                        <button class="search-btn"><i class="far fa-search"></i></button>
+                                    </form>
+                                </div>
+                                <!-- search box end -->
+
+                                <!-- mobile menu start -->
+                                <div class="mobile-navigation">
+                                    <!-- mobile menu navigation start -->
+                                    <nav>
+                                        <ul class="mobile-menu">
+                                            <li class="menu-item-has-children"><a href="index.html">Home</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="index.html">Home version 01</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="#">pages</a>
+                                                <ul class="megamenu dropdown">
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 01</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="shop.html">shop grid left
+                                                                    sidebar</a></li>
+                                                            <li><a href="shop-grid-right-sidebar.html">shop grid right
+                                                                    sidebar</a></li>
+                                                            <li><a href="shop-list-left-sidebar.html">shop list left sidebar</a></li>
+                                                            <li><a href="shop-list-right-sidebar.html">shop list right sidebar</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 02</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="product-details.html">product details</a></li>
+                                                            <li><a href="product-details-affiliate.html">product
+                                                                    details
+                                                                    affiliate</a></li>
+                                                            <li><a href="product-details-variable.html">product details
+                                                                    variable</a></li>
+                                                            <li><a href="product-details-group.html">product details
+                                                                    group</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 03</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="cart.html">cart</a></li>
+                                                            <li><a href="checkout.html">checkout</a></li>
+                                                            <li><a href="compare.html">compare</a></li>
+                                                            <li><a href="wishlist.html">wishlist</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="mega-title menu-item-has-children"><a href="#">column 04</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="my-account.html">my-account</a></li>
+                                                            <li><a href="login-register.html">login-register</a></li>
+                                                            <li><a href="contact-us.html">contact us</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children "><a href="#">shop</a>
+                                                <ul class="dropdown">
+                                                    <li class="menu-item-has-children"><a href="#">shop grid layout</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="shop.html">shop grid left sidebar</a></li>
+                                                            <li><a href="shop-grid-right-sidebar.html">shop grid right sidebar</a></li>
+                                                            <li><a href="shop-grid-full-3-col.html">shop grid full 3 col</a></li>
+                                                            <li><a href="shop-grid-full-4-col.html">shop grid full 4 col</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item-has-children"><a href="#">shop list layout</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="shop-list-left-sidebar.html">shop list left sidebar</a></li>
+                                                            <li><a href="shop-list-right-sidebar.html">shop list right sidebar</a></li>
+                                                            <li><a href="shop-list-full-width.html">shop list full width</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item-has-children"><a href="#">products details</a>
+                                                        <ul class="dropdown">
+                                                            <li><a href="product-details.html">product details</a></li>
+                                                            <li><a href="product-details-affiliate.html">product details affiliate</a></li>
+                                                            <li><a href="product-details-variable.html">product details variable</a></li>
+                                                            <li><a href="product-details-group.html">product details group</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children "><a href="#">Blog</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="blog-left-sidebar.html">blog left sidebar</a></li>
+                                                    <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
+                                                    <li><a href="blog-grid-full-width.html">blog grid no sidebar</a></li>
+                                                    <li><a href="blog-details.html">blog details</a></li>
+                                                    <li><a href="blog-details-audio.html">blog details audio</a></li>
+                                                    <li><a href="blog-details-video.html">blog details video</a></li>
+                                                    <li><a href="blog-details-left-sidebar.html">blog details left sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#contact">Contact us</a></li>
+                                        </ul>
+                                    </nav>
+                                    <!-- mobile menu navigation end -->
+                                </div>
+                                <!-- mobile menu end -->
+
+                                <!-- offcanvas widget area start -->
+                                <div class="space-100"></div>
+                                <div class="footer-logo">
+                                    <a class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s" href="#"><img src="assets\img\logo\flogo.png" alt=""></a>
+                                    <p class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1.5s">Whether its a driving tour, a cruise or a bus,
+                                        leaf viewing is a great way to spend a fall
+                                        vacation. It’s also big tour business.</p>
+                                    <div class="footer_social animate" data-animate="fadeInUp" data-delay="2s" data-duration="2s">
+                                        <ul class="d-inline">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- offcanvas widget area end -->
+                            </div>
+                        </div>
+                    </aside>
+                
+    <!--:::::mobile menu area end :::::::-->
+        </div>
+    </div>
+    <!--:::::header area end :::::::-->
+
+   
+
+    <!---====welcome area start====-->
+    <div class="welcome-area bg dots_bg theme-bg " id="home">
+        <div class="fixd">
+            <div class="welcome_wap">
+                <div class="welcome-text white align-self-center wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
+                    <h1>Focus on being
+                        more productive
+                        with Tiaweb</h1>
+                    <h4 class="white">What sets successful people apart from the pack? Is it luck, money, good lucks, or talent? nope its only productivity.</h4>
+                    <div class="space-30"></div>
+                    <div class="form_email">
+                        <input type="text" placeholder="Enter Email">
+                        <a href="#" class="email_submit style1_btn_bg style1_hover_btn_bg">Start free trail</a>
+                    </div>
+                    <div class="space-10"></div>
+                    <p>30 day free trial • No credit card required</p>
+                </div>
+                <div class="welcome_right align-self-center">
+                    <img class="wow fadeInRight" src="assets\img\welcome\Macbook.png" alt="">
+                    <img class="wlm-car1 wow fadeIn" data-wow-delay="1s" data-wow-duration="2s" src="assets\img\welcome\card1.png" alt="">
+                    <img class="wlm-car2 wow fadeIn" data-wow-delay="1.2s" data-wow-duration="2s" src="assets\img\welcome\card2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---====welcome area end====-->
+
+
+    <!---====logo area start====-->
+    <div class="logo-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="heading wow fadeInDown" data-wow-dealy="1s" data-wow-duration="1s">
+                        <h6>Trusted by hundreds of the world's best workplaces</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="space-60"></div>
+
+            <div class="logos owl-carousel">
+                <div class="single_logo wow fadeInDown" data-wow-dealy="1s" data-wow-duration="1s">
+                    <img src="assets\img\logo\1.png" alt="">
+                </div>
+                <div class="single_logo wow fadeInDown" data-wow-dealy="1.2s" data-wow-duration="1s">
+                    <img src="assets\img\logo\2.png" alt="">
+                </div>
+                <div class="single_logo wow fadeInDown" data-wow-dealy="1.4s" data-wow-duration="1s">
+                    <img src="assets\img\logo\3.png" alt="">
+                </div>
+                <div class="single_logo wow fadeInDown" data-wow-dealy="1.6s" data-wow-duration="1s">
+                    <img src="assets\img\logo\4.png" alt="">
+                </div>
+                <div class="single_logo wow fadeInDown" data-wow-dealy="1.8s" data-wow-duration="1s">
+                    <img src="assets\img\logo\5.png" alt="">
+                </div>
+                <div class="single_logo wow fadeInDown" data-wow-dealy="2s" data-wow-duration="1s">
+                    <img src="assets\img\logo\3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---====logo area end====-->
+
+
+
+    <!---====features area start====-->
+    <div class="features-area" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="heading wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
+                        <div class="hicon features_hicon">
+                            <img src="assets\img\icon\features_heading.png" alt="">
+                        </div>
+                        <h2>Key features of Leisured</h2>
+                        <p>We have lots of rich features that help to gain your productivity</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space-60"></div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 text-center wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
+                    <div class="single_features">
+                        <div class="features_icon">
+                            <img src="assets\img\icon\features1.png" alt="">
+                        </div>
+                        <div class="features_text">
+                            <h3>Get Notification</h3>
+                            <p>Some days a motivational quote can provide a quick pick-me-up
+                                for employees </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s">
+                    <div class="single_features">
+                        <div class="features_icon">
+                            <img src="assets\img\icon\features2.png" alt="">
+                        </div>
+                        <div class="features_text">
+                            <h3>Get Notification</h3>
+                            <p>Some days a motivational quote can provide a quick pick-me-up
+                                for employees </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s">
+                    <div class="single_features">
+                        <div class="features_icon">
+                            <img src="assets\img\icon\features3.png" alt="">
+                        </div>
+                        <div class="features_text">
+                            <h3>Get Notification</h3>
+                            <p>Some days a motivational quote can provide a quick pick-me-up
+                                for employees </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 text-center wow fadeInUp" data-wow-delay="1.6s" data-wow-duration="1s">
+                    <div class="single_features last_c">
+                        <div class="features_icon">
+                            <img src="assets\img\icon\features4.png" alt="">
+                        </div>
+                        <div class="features_text">
+                            <h3>Get Notification</h3>
+                            <p>Some days a motivational quote can provide a quick pick-me-up
+                                for employees </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---====features area end====-->
+
+    <!---====features meeting area start====-->
+    <div class="features-meeting-area section-padding">
+        <div class="meeting-wrap fixd">
+            <div class="meeting-heading">
+                <div class="heading wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
+                    <div class="hicon features_meeting_hicon">
+                        <img src="assets\img\icon\features_meeting.png" alt="">
+                    </div>
+                    <h2>Set your future meeting</h2>
+                    <p>You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that you can have it; it is also feeling that it is possible. When we believe that we can.
+                    </p>
+                    <p>
+
+                        The allowing of your desire can come to you very quickly providing you have no resistance to receiving it.</p>
+                </div>
+            </div>
+            <div class="meeting_right">
+                <div class="meeting_right_img">
+                    <img class="wow fadeInRight" data-wow-delay="1s" data-wow-duration="1s" src="assets\img\features\meeting_card_bg.png" alt="">
+                    <img class="meeting_right_base wow fadeIn" data-wow-delay="2s" data-wow-duration="2s" src="assets\img\features\meeting_base.png" alt="">
+                    <img class="meeting_right_event wow fadeIn" data-wow-delay="2.2s" data-wow-duration="2s" src="assets\img\features\meeting_event.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="space-100"></div>
+
+        <div class="event-wrap fixd">
+            <div class="event_right">
+                <div class="event_left_img">
+                    <img class="wow fadeInLeft" data-wow-delay="1s" data-wow-duration="1s" src="assets\img\features\event_bg.png" alt="">
+
+                    <img class="meeting_left_event wow fadeIn" data-wow-delay="2.2s" data-wow-duration="2s" src="assets\img\features\event_app.png" alt="">
+                </div>
+            </div>
+            <div class="event-heading">
+
+
+                <div class="heading wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
+                    <div class="hicon features_event_hicon">
+                        <img src="assets\img\icon\features_event.png" alt="">
+                    </div>
+                    <h2>Set your future meeting</h2>
+                    <p>You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that you can have it; it is also feeling that it is possible. When we believe that we can.
+                    </p>
+                    <p>
+
+                        The allowing of your desire can come to you very quickly providing you have no resistance to receiving it.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="space-100"></div>
+
+        <div class="meeting-wrap fixd">
+            <div class="meeting-heading">
+                <div class="heading wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
+                    <div class="hicon features_optimize_hicon">
+                        <img src="assets\img\icon\optimize_heading.png" alt="">
+                    </div>
+                    <h2>Organize your file</h2>
+                    <p>You’ve heard the expression, “Just believe it and it will come.” Well, technically
+                    </p>
+                    <div class="space-30"></div>
+                    <ul class="optimize-list">
+                        <li><i class="fal fa-check"></i> &nbsp; Don T Let The Outtakes Take You Out</li>
+                        <li><i class="fal fa-check"></i> &nbsp; It S Hurricane Season But We Are</li>
+                        <li><i class="fal fa-check"></i> &nbsp; Coventry City Guide Including Coventry Hotels</li>
+                        <li><i class="fal fa-check"></i> &nbsp; Global Resorts Network Grn Putting</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="meeting_right">
+                <div class="meeting_right_img">
+                    <img class="wow fadeInRight" data-wow-delay="1s" data-wow-duration="1s" src="assets\img\features\optimize_bg.png" alt="">
+                    <img class="meeting_right_base wow fadeIn" data-wow-delay="2s" data-wow-duration="2s" src="assets\img\features\optimize_file.png" alt="">
+                    <img class="meeting_right_event wow fadeIn" data-wow-delay="2.2s" data-wow-duration="2s" src="assets\img\features\optimize_base.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---====features meeting area end====-->
+
+
+    <!--:::::pricing area start:::::::-->
+    <div class="pricing-area bg dots_bg theme-bg section-padding" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="heading white wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
+                        <div class="hicon pricing_hicon">
+                            <img src="assets\img\icon\pricing-icon.png" alt="">
+                        </div>
+                        <h2>Simple Pricing Plan</h2>
+                        <p>We have lots of rich features that help to gain your productivity</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space-80"></div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
+                    <div class="tab-slider--nav">
+                        <ul class="tab-slider--tabs">
+                            <li class="tab-slider--trigger active" rel="tab1">Year</li>
+                            <li class="tab-slider--trigger" rel="tab2">Month</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="space-80"></div>
+            <div class="">
+                <div class="tab-slider--container">
+                    <div id="tab1" class="tab-slider--body">
+                        <div class="row">
+                            <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
+                                <div class="single-pricing">
+                                    <h3>Basic</h3>
+                                    <div class="pricing-icon">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                    <h2>$50</h2>
+                                    <ul>
+                                        <li><i class="fal fa-check"></i>Unlimited Tasks</li>
+                                        <li><i class="fal fa-check"></i>Unlimited Teams</li>
+                                        <li><i class="fal fa-check"></i>Public API</li>
+                                        <li><i class="fal fa-check"></i>All Integrations</li>
+                                        <li><i class="fal fa-check"></i>Resource Management</li>
+                                    </ul>
+                                    <div class="space-40"></div>
+                                    <a href="#" class="xs-btn xs-second">Start free trail
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="1s" data-wow-duration="2s">
+                                <div class="single-pricing active">
+
+                                    <h3>Pro</h3>
+                                    <div class="pricing-icon">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                    <h2>$80</h2>
+                                    <ul>
+                                        <li><i class="fal fa-check"></i>Unlimited Tasks</li>
+                                        <li><i class="fal fa-check"></i>Unlimited Teams</li>
+                                        <li><i class="fal fa-check"></i>Public API</li>
+                                        <li><i class="fal fa-check"></i>All Integrations</li>
+                                        <li><i class="fal fa-check"></i>Resource Management</li>
+                                    </ul>
+                                    <div class="space-40"></div>
+                                    <a href="#" class="xs-btn active xs-second">Start free trail
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="1s" data-wow-duration="3s">
+                                <div class="single-pricing">
+
+                                    <h3>Pro Plus</h3>
+                                    <div class="pricing-icon">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                    <h2>$120</h2>
+                                    <ul>
+                                        <li><i class="fal fa-check"></i>Unlimited Tasks</li>
+                                        <li><i class="fal fa-check"></i>Unlimited Teams</li>
+                                        <li><i class="fal fa-check"></i>Public API</li>
+                                        <li><i class="fal fa-check"></i>All Integrations</li>
+                                        <li><i class="fal fa-check"></i>Resource Management</li>
+                                    </ul>
+                                    <div class="space-40"></div>
+                                    <a href="#" class="xs-btn xs-second">Start free trail
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="tab2" class="tab-slider--body">
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="single-pricing">
+
+                                    <h3>Basic</h3>
+                                    <div class="pricing-icon">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                    <h2>$40</h2>
+                                    <ul>
+                                        <li><i class="fal fa-check"></i>Unlimited Tasks</li>
+                                        <li><i class="fal fa-check"></i>Unlimited Teams</li>
+                                        <li><i class="fal fa-check"></i>Public API</li>
+                                        <li><i class="fal fa-check"></i>All Integrations</li>
+                                        <li><i class="fal fa-check"></i>Resource Management</li>
+                                    </ul>
+                                    <div class="space-40"></div>
+                                    <a href="#" class="xs-btn xs-second">Start free trail
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="single-pricing active">
+
+                                    <h3>Pro</h3>
+                                    <div class="pricing-icon">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                    <h2>$90</h2>
+                                    <ul>
+                                        <li><i class="fal fa-check"></i>Unlimited Tasks</li>
+                                        <li><i class="fal fa-check"></i>Unlimited Teams</li>
+                                        <li><i class="fal fa-check"></i>Public API</li>
+                                        <li><i class="fal fa-check"></i>All Integrations</li>
+                                        <li><i class="fal fa-check"></i>Resource Management</li>
+                                    </ul>
+                                    <div class="space-40"></div>
+                                    <a href="#" class="xs-btn active xs-second">Start free trail
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="single-pricing">
+
+                                    <h3>Pro Plus</h3>
+                                    <div class="pricing-icon">
+                                        <i class="fal fa-user"></i>
+                                    </div>
+                                    <h2>$180</h2>
+                                    <ul>
+                                        <li><i class="fal fa-check"></i>Unlimited Tasks</li>
+                                        <li><i class="fal fa-check"></i>Unlimited Teams</li>
+                                        <li><i class="fal fa-check"></i>Public API</li>
+                                        <li><i class="fal fa-check"></i>All Integrations</li>
+                                        <li><i class="fal fa-check"></i>Resource Management</li>
+                                    </ul>
+                                    <div class="space-40"></div>
+                                    <a href="#" class="xs-btn xs-second">Start free trail
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--:::::pricing area end:::::::-->
+
+
+    <!--:::::client area start:::::::-->
+    <div class="client-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="heading wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
+                        <div class="hicon client_hicon">
+                            <img src="assets\img\icon\client.png" alt="">
+                        </div>
+                        <h2>Our client loves our product</h2>
+                        <p>We have lots of rich features that help to gain your productivity</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space-60"></div>
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="client_carousel owl-carousel wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+                        <div class="single_client">
+                            <h6>“Position yourself to succeed by doing the other things in your life that rejuvenate you. Exhaustion affects your quality and productivity.Leisured help me to stand out.”</h6>
+                            <div class="author">
+                                <div class="author_img">
+                                    <img src="assets\img\client\author.png" alt="">
+                                </div>
+                                <div class="author_text">
+                                    <h4>Alex Harrington</h4>
+                                    <p>Wed Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--:::::client area end:::::::-->
+
+    <!--:::::company area start:::::::-->
+    <div class="company-area bg dots_bg_black section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="heading wow fadeInDown" data-wow-delay="1s" data-wow-duration="1s">
+                        <h2>100+ Integrated apps to make
+                            you more productive</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="space-60"></div>
+
+            <div class="row">
+                <div class="company-logos text-center">
+                    <div class="single_company big">
+                        <img class="logos animated tada" src="assets\img\logo\company1_m.png" alt="">
+                    </div>
+                    <div class="single_company big">
+                        <img class="logos animated tada" src="assets\img\logo\company2_b.png" alt="">
+                    </div>
+                    <div class="single_company middle">
+                        <img class="logos animated tada" src="assets\img\logo\company3_m.png" alt="">
+                    </div>
+                    <div class="single_company small">
+                        <img class="logos animated tada" src="assets\img\logo\company4_s.png" alt="">
+                    </div>
+                    <div class="single_company middle">
+                        <img class="logos animated tada" src="assets\img\logo\company5_m.png" alt="">
+                    </div>
+                    <div class="single_company middle">
+                        <img class="logos animated tada" src="assets\img\logo\company6_s.png" alt="">
+                    </div>
+                    <div class="single_company middle">
+                        <img class="logos animated tada" src="assets\img\logo\company7_s.png" alt="">
+                    </div>
+                    <div class="single_company middle">
+                        <img class="logos animated tada" src="assets\img\logo\company8_m.png" alt="">
+                    </div>
+                    <div class="single_company small">
+                        <img class="logos animated tada" src="assets\img\logo\company9_s.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--:::::company area end:::::::-->
+
+    <!--:::::cta-area area start:::::::-->
+    <div class="cta-area bg dots_bg white theme-bg section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
+                    <h2>Improve your Productivity Today</h2>
+                    <p>30 day free trial • No credit card required</p>
+                </div>
+                <div class="col-lg-6 align-self-center wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1.2s">
+                    <div class="form_email">
+                        <input type="text" placeholder="Enter Email">
+                        <a href="#" class="email_submit style1_btn_bg style1_hover_btn_bg">Start free trail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--:::::cta-area area end:::::::-->
+    <!--::::: footer area start :::::::-->
+    <div class="footer_area section-padding">
+        <div class="container">
+            <div class="footer_wrap padding-t">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer-logo">
+                            <a class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s" href="#"><img src="assets\img\logo\flogo.png" alt=""></a>
+                            <p class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1.5s">Whether its a driving tour, a cruise or a bus,
+                                leaf viewing is a great way to spend a fall
+                                vacation. It’s also big tour business.</p>
+                            <div class="footer_social animate" data-animate="fadeInUp" data-delay="2s" data-duration="2s">
+                                <ul class="d-inline">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="single_footer">
+                            <h4 class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s">About Us</h4>
+                            <ul class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1s">
+                                <li><a href="#">Partner Help</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Press Center</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="single_footer">
+                            <h4 class="animate" data-animate="fadeInUp" data-delay="1.5s" data-duration="1.5s">Products</h4>
+                            <ul class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s">
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Apps</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="single_footer">
+                            <h4 class="animate" data-animate="fadeInUp" data-delay="2s" data-duration="1.5s">Resouce</h4>
+                            <ul class="animate" data-animate="fadeInUp" data-delay="1s" data-duration="1s">
+                                <li><a href="#">Customers</a></li>
+                                <li><a href="#">Whitepaper</a></li>
+                                <li><a href="#">Dev API</a></li>
+                                <li><a href="#">Media Coverages</a></li>
+                                <li><a href="#">GDPR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--::::: row end :::::::-->
+        </div>
+        <!--::::: container end :::::::-->
+
+    </div>
+    <div class="copyRight text-center">
+        <p class="animate" data-animate="fadeInUp" data-delay="2.5s" data-duration="2s">&copy; 2019 Tiaweb. All rights reserved.</p>
+    </div>
+    <!--::::: footer area end :::::::-->
+
+    <!--:::::jquery.waypoints.min.js :::::::-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!--:::::popper js :::::::-->
+    <script src="assets\js\vendor\popper.min.js"></script>
+    <!--:::::bootstrap js :::::::-->
+    <script src="assets\js\vendor\bootstrap.min.js"></script>
+    <!--:::::owl carousel js :::::::-->
+    <script src="assets\js\vendor\owl.carousel.min.js"></script>
+    <!--:::::modal video btn js :::::::-->
+    <script src="assets\js\plugins\jquery-modal-video.min.js"></script>
+    <!--:::::slick nav mobile menu js :::::::-->
+    <script src="assets\js\plugins\wow.min.js"></script>
+    <!--:::::slick nav mobile menu js :::::::-->
+    <script src="assets\js\plugins\tilt.jquery.min.js"></script>
+    <!--:::::jquery ui js :::::::-->
+    <script src="assets\js\plugins\jqueryUI.js"></script>
+    <!--:::::google map js :::::::-->
+    <script src="assets\js\plugins\jquery.nav.js"></script>
+    <!--:::::google map js :::::::-->
+    <script src="assets\js\plugins\gmap3.js"></script>
+    <!--:::::main js :::::::-->
+    <script src="assets\js\main.js"></script>
+</body>
+
+</html>

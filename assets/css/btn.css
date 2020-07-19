@@ -1,0 +1,148 @@
+/*Scroll up btn*/
+a.up_btn {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background: #243EC4;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0;
+    visibility: hidden;
+}
+.header-area.sticky a.up_btn{
+  visibility: visible;
+  opacity: 1;
+}
+
+/*comman btn type*/
+
+a.cbtn {
+  background: black;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+/*login btn type*/
+a.cbtn.startbtn {
+    border-radius: 3px;
+}
+
+/*signup btn type*/
+a.signupbtn {
+  color: #fff;
+}
+a.signupbtn:hover{
+  
+}
+
+/*first btn*/
+
+
+.xs-btn {
+  overflow: hidden;
+  text-transform: capitalize;
+  padding: 12px 30px;
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.xs-btn.xs-first:hover, .xs-btn.xs-first.active {
+  color: #fff;
+}
+
+.xs-btn.pill {
+  border-radius: 999px;
+}
+
+.xs-first {
+  background: #018bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.xs-first span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: #243EC4;
+  -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.xs-first.active{
+  background: #243EC4;
+}
+
+.xs-first.active span {
+  background: #018bff;
+}
+
+
+.xs-btn:hover span{
+  width: 335%;
+  height: 562.5px;
+}
+
+
+
+/*second btn*/
+
+.xs-btn.xs-second:hover, .xs-btn.xs-second.active {
+  color: #fff;
+}
+
+.xs-btn.pill {
+  border-radius: 999px;
+}
+
+.xs-second {
+  background: #fff;
+  color: #2e8eff;
+  border: 1px solid #2e8eff;
+  border-radius: 5px;
+}
+
+.xs-second span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: #2e8eff;
+  -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.xs-btn.xs-second.active span {
+  width: 335%;
+  height: 562.5px;
+}
+
